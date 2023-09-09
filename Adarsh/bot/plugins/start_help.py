@@ -27,8 +27,8 @@ async def start(b, m):
             text= "<b>ɪ ᴀᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇ ᴛᴇʟᴇɢʀᴀᴍ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ. ɪ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ & ᴅɪʀᴇᴄᴛ ᴏɴʟɪɴᴇ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋ.\n\nᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ/ꜰɪʟᴇ & sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ...</b>",
             reply_markup=InlineKeyboardMarkup([
                 [
-                    InlineKeyboardButton('📝 ᴜᴘᴅᴀᴛᴇs', url='https://telegram.me/Imdb_updates'),
-                    InlineKeyboardButton('🧙🏻‍♀️ sᴜᴘᴘᴏʀᴛ', url='https://telegram.me/aks_bot_support')
+                    InlineKeyboardButton('📝 ᴜᴘᴅᴀᴛᴇs', url='https://telegram.me/KK_BOTS'),
+                    InlineKeyboardButton('🧙🏻‍♀️ sᴜᴘᴘᴏʀᴛ', url='https://telegram.me/movie_a1')
                 ],
                 [
                     InlineKeyboardButton('❓ ʜᴇʟᴘ ❓', callback_data="help")
@@ -84,8 +84,8 @@ async def cb_handler(client, query: CallbackQuery):
         )
     elif query.data == "aksstart":
         buttons = [[
-                    InlineKeyboardButton('📝 ᴜᴘᴅᴀᴛᴇs', url='https://telegram.me/Imdb_updates'),
-                    InlineKeyboardButton('🧙🏻‍♀️ sᴜᴘᴘᴏʀᴛ', url='https://telegram.me/aks_bot_support')
+                    InlineKeyboardButton('📝 ᴜᴘᴅᴀᴛᴇs', url='https://telegram.me/KK_BOTS'),
+                    InlineKeyboardButton('🧙🏻‍♀️ sᴜᴘᴘᴏʀᴛ', url='https://telegram.me/movie_a1')
                 ],
                 [
                     InlineKeyboardButton('❓ ʜᴇʟᴘ ❓', callback_data="help")
